@@ -179,7 +179,7 @@
         "script/docker.sh",
         "script/cmtool.sh",
         "script/motd.sh",
-		"script/locale.sh",
+        "script/locale.sh",
         "custom-script.sh",
         "script/minimize.sh",
         "script/cleanup.sh"
