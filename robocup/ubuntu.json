@@ -108,7 +108,7 @@
         "passwd/user-password={{ user `ssh_password` }} ",
         "passwd/user-password-again={{ user `ssh_password` }} ",
         "passwd/username={{ user `ssh_username` }} ",
-        "initrd=/install/initrd.gz -- <wait><enter>" 
+        "initrd=/install/initrd.gz -- <wait><enter>"
       ],
       "disk_size": "{{ user `disk_size` }}",
       "floppy_files": [
@@ -179,6 +179,7 @@
         "script/docker.sh",
         "script/cmtool.sh",
         "script/motd.sh",
+		"script/locale.sh",
         "custom-script.sh",
         "script/minimize.sh",
         "script/cleanup.sh"
