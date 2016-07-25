@@ -2,6 +2,12 @@
 
 These images were created using [boxcutter/ubuntu](https://github.com/boxcutter/ubuntu). See there for more detailed documentation
 
+## Dependencies
+
+You will need packer and vagrant installed (along with virtualbox/vmware).
+
+`apt-get install packer vagrant`
+
 ## Building
 
 run this in this folder to build virtualbox images:
