@@ -8,6 +8,9 @@ set -eux
 # Install needed dependencies
 sudo apt-get update
 sudo apt-get install -y git qtcreator
+
+# Make sure we are using the vagrant user
+su vagrant << EOF
 # CD to home dir
 cd
 # Clone all needed projects
@@ -27,6 +30,7 @@ make
 cd ../ssl-refbox
 make
 cd ..
+EOF
 
 # Sublime :/
 sudo add-apt-repository ppa:webupd8team/sublime-text-3
