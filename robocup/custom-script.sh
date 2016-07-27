@@ -18,6 +18,10 @@ git clone https://github.com/RoboJackets/robocup-software.git
 git clone https://github.com/RoboJackets/robocup-firmware.git
 git clone https://github.com/RoboCup-SSL/ssl-refbox.git
 
+git -C robocup-software submodule update --init --recursive
+git -C robocup-firmware submodule update --init --recursive
+git -C ssl-refbox submodule update --init --recursive
+
 # Install software dependencies
 sudo ./robocup-software/util/ubuntu-setup --yes
 
