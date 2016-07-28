@@ -33,7 +33,9 @@ cd robocup-software
 make
 cd ../ssl-refbox
 make
-cd ..
+cd rcon-client
+make
+cd ../../
 EOF
 
 # Sublime :/
