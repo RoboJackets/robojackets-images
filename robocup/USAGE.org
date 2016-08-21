@@ -1,9 +1,8 @@
 
-#+TITLE: RoboCup Images Usage Guide
 #+AUTHOR: Jay Kamat
 #+EMAIL: jaygkamat@gmail.com
 
-* Getting Started
+* RoboCup Images Usage Guide
 
 This document will help you get started using the RoboCup Software Virtualbox Image
 
