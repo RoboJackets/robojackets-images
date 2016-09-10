@@ -1,7 +1,8 @@
 
-#+TITLE: RoboCup VirtualBox Images
-#+AUTHOR: Jay Kamat
-#+EMAIL: jaygkamat@gmail.com
+#+TITLE: IGVC VirtualBox Images
+#+AUTHOR: Matthew Keezer
+
+# Matthew still needs to modify this for igvc (you have to install ros first)
 
 These images were created using [[https://github.com/boxcutter/ubuntu][boxcutter/ubuntu]]. See there for more detailed documentation
 
