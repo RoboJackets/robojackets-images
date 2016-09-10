@@ -33,18 +33,17 @@ This document will help you get started using the RoboCup Software Virtualbox Im
 
    1. Go to =File->Import Appliance=
 
-      [[http://i.imgur.com/keQmMy4.png][file:http://i.imgur.com/keQmMy4.png]]
+      [[file:http://i.imgur.com/keQmMy4.png]]
 
    2. Select the =.box= file you extracted earlier
 
-      [[http://i.imgur.com/3S2Pgt3.png][file:http://i.imgur.com/3S2Pgt3.png]]
+      [[file:http://i.imgur.com/3S2Pgt3.png]]
 
    3. Increase the Amount of Memory and CPU's
 
       Increase the Memory/CPU to your computer's specs. Don't allocate too much memory/cpus!
 
-      [[http://i.imgur.com/P8Adm2a.png][file:http://i.imgur.com/P8Adm2a.png]]
-
+      [[file:http://i.imgur.com/P8Adm2a.png]]
    4. Hit =Import=!
 
 6. Configure Settings of Imported Image
@@ -55,11 +54,11 @@ This document will help you get started using the RoboCup Software Virtualbox Im
 
       If you do not have virtualization, virtualbox may not allow you to turn on 3D Acceleration
 
-      [[http://i.imgur.com/YzmNmcM.png][file:http://i.imgur.com/YzmNmcM.png]]
+      [[file:http://i.imgur.com/YzmNmcM.png]]
 
    3. Turn *OFF* =Remote Display=
 
-      [[http://i.imgur.com/cvigW2G.png][file:http://i.imgur.com/cvigW2G.png]]
+      [[file:http://i.imgur.com/cvigW2G.png]]
 
 7. Boot your new VM
 
