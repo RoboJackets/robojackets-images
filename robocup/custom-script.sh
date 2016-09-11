@@ -25,12 +25,17 @@ git -C ssl-refbox submodule update --init --recursive
 # Install software dependencies
 sudo ./robocup-software/util/ubuntu-setup --yes
 
+# Install firmware dependencies
+sudo ./robocup-firmware/util/ubuntu-setup --yes
+
 # Install refbox dependencies
 sudo apt-get install -y g++ git libgtkmm-2.4-dev libprotobuf-dev protobuf-compiler
 
 # Compile things
 cd robocup-software
 make
+cd ../robocup-firmware
+make robot2015
 cd ../ssl-refbox
 make
 cd rcon-client
