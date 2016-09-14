@@ -23,10 +23,10 @@ git -C robocup-firmware submodule update --init --recursive
 git -C ssl-refbox submodule update --init --recursive
 
 # Install software dependencies
-sudo ./robocup-software/util/ubuntu-setup --yes
+./robocup-software/util/ubuntu-setup --yes
 
 # Install firmware dependencies
-sudo ./robocup-firmware/util/ubuntu-setup --yes
+./robocup-firmware/util/ubuntu-setup --yes
 
 # Install refbox dependencies
 sudo apt-get install -y g++ git libgtkmm-2.4-dev libprotobuf-dev protobuf-compiler
