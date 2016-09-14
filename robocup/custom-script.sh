@@ -40,7 +40,10 @@ cd ../ssl-refbox
 make
 cd rcon-client
 make
-cd ../../
+cd ../
+sudo chown vagrant:vagrant -R ./robocup-software/external
+sudo chown vagrant:vagrant -R ./robocup-firmware/external
+cd ../
 EOF
 
 # Sublime :/
