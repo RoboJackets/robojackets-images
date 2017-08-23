@@ -9,6 +9,9 @@ set -eux
 sudo apt-get update
 sudo apt-get install -y git qtcreator
 
+# Install sideloaded requested things
+sudo apt-get install -y libopencv-dev
+
 # Make sure we are using the vagrant user
 su vagrant << EOF
 # CD to home dir
