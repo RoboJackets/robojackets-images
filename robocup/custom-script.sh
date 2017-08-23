@@ -38,6 +38,10 @@ sudo apt-get install -y g++ git libgtkmm-2.4-dev libprotobuf-dev protobuf-compil
 cd robocup-software
 make
 cd ../robocup-firmware
+
+# Install git hooks for robocup-software
+cp util/git-hooks/* .git/hooks/
+
 # make robot2015
 cd ../ssl-refbox
 make
