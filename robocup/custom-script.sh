@@ -9,6 +9,9 @@ set -eux
 sudo apt-get update
 sudo apt-get install -y git qtcreator
 
+# Install sideloaded requested things
+sudo apt-get install -y libopencv-dev
+
 # Make sure we are using the vagrant user
 su vagrant << EOF
 # CD to home dir
@@ -34,7 +37,13 @@ sudo apt-get install -y g++ git libgtkmm-2.4-dev libprotobuf-dev protobuf-compil
 # Compile things
 cd robocup-software
 make
+
+
+# Install git hooks for robocup-software
+cp util/git-hooks/* .git/hooks/
+
 cd ../robocup-firmware
+
 # make robot2015
 cd ../ssl-refbox
 make
